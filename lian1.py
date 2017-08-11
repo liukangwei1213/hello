@@ -44,6 +44,7 @@ def con(url):
       lis_one = re_one.findall(rea_one)
       for i in lis_one:
          print(i)
+         print("suibian")
 
 
 def page():
@@ -51,6 +52,7 @@ def page():
    for i in range(1,100):
       name = 'http://www.x23us.com/class/1_'+str(i)+'.html'
       print(name)
+      print("sjdflkahgibemyu ")
       lis.append(name)
    return lis
 
@@ -62,6 +64,7 @@ omian()
 '''
 仅仅是测试
 还是测试
+就是测试
 
 '''
 
